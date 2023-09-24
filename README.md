@@ -1,4 +1,4 @@
-- This is the code for the article "_MetaSignal: Meta Reinforcement Learning for Traffic Signal Control via Fourier Basis Approximation_" which is currently under review by _IEEE T-ITS_.
+- This code corresponds to the article _'MetaSignal: Meta Reinforcement Learning for Traffic Signal Control via Fourier Basis Approximation'_, which has been submitted to _IEEE T-ITS_ and is currently under review..
 
 - For the algo data and many other information, we are grateful for the project [_Reinforcement Learning for Traffic Signal Control_](https://traffic-signal-control.github.io/).
 
