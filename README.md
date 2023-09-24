@@ -1,12 +1,12 @@
 # 1. Introduction
 
-This code corresponds to the article _'MetaSignal: Meta Reinforcement Learning for Traffic Signal Control via Fourier Basis Approximation'_, which has been submitted to _IEEE T-ITS_ and is currently under review..
+This code corresponds to the article _'MetaSignal: Meta Reinforcement Learning for Traffic Signal Control via Fourier Basis Approximation'_, which has been submitted to _IEEE T-ITS_ and is currently under review.
 
 # 2. Requirements
 
 `python3.7`, `cityflow`, `pandas`, `numpy`
 
-[`cityflow`](https://github.com/cityflow-project/CityFlow.git) needs a linux environment, and we run the code on WSL2.
+[`cityflow`](https://github.com/cityflow-project/CityFlow.git) needs a linux environment, and we run our code on WSL2.
 
 # 3. Code details
 
