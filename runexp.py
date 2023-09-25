@@ -18,6 +18,7 @@ from utility import *
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
+
 parser = argparse.ArgumentParser(description='Run Example')
 parser.add_argument('--thread', type=int, default=8, help='number of threads')
 parser.add_argument('--num_step', type=int, default=3600, help='number of steps')
