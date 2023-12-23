@@ -4,24 +4,19 @@ This code corresponds to the article _'MetaSignal: Meta Reinforcement Learning f
 
 # 2. Requirements
 
-|Type|Name| Version |
-|---|---|---------|
-|language|python| 3.7     |
-|simulation platform|CityFlow| 1.1.0   |
-|other | itertools | 5.0.0  |
-|other | pickle | 0.4.2 |
-|other | collections | 3.0.0  |
-|other | tqdm | 4.65.0 |
-|other | numpy | 1.21.5  |
-|other | math | --  |
-|other | matplotlib |  3.5.3  |
-|other | argparse | --  |
-|other | datetime | --   |
-|other | time | --  |
-|other | csv | --  |
-|other | json | --  |
+- This code has been tested on Python 3.7, and compatibility with other versions is not guaranteed. It is recommended to use Python versions 3.5 and above.
+- For installing CityFlow, it is recommended to follow the instructions provided at https://cityflow.readthedocs.io/en/latest/install.html.
+  
+|Name| Version |
+|---|---------|
+|Keras| v2.3.1   |
+|tensorflow-gpu| 1.14.0  |
+|CityFlow| 1.1.0   |
+| tqdm | 4.65.0 |
+| numpy | 1.21.5  |
+| matplotlib |  3.5.3  |
 
-- CityFlow Installation Guide: https://cityflow.readthedocs.io/en/latest/install.html
+
 
 # 3. Code details
 
@@ -50,6 +45,6 @@ Numerical metrics for different agents to compared under the same standard.
 
 * ``data.zip``
 
-Containing all the used traffic file and road networks datasets. 
+Containing all the used traffic file and road networks datasets. When extracting the 'data.zip' file, the resulting files will be stored in the 'project dir/data' directory.
 
 > The **storage path -- "dir"** to each dataset, as written in its corresponding JSON file, should be accurately specified based on your local machine's configuration.
